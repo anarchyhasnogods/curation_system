@@ -20,7 +20,7 @@ class Post_holder:
         self.sending_account = sending_account
         self.key = key
         self.memo_account = memo_account
-
+        self.votes_finished = False
     def add_post(self, post_link, submission_author, post_author):
         # post_list = [[postname, submission author, vote list, advertisement_total]]
 
@@ -106,7 +106,7 @@ class Post_holder:
                 interpret.update_account(ii[0], self.sending_account,self.memo_account ["vote", str(ii[1]) + "|"
                                                                                        + str(memo_pos)], self.key)
 
-
+            self.votes_finished = True
 
 
 
