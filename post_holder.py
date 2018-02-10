@@ -114,7 +114,7 @@ class Post_holder:
 
 
 
-interpret.update_account("name","anarchyhasnogods","space-pictures",["add1","add2"], "5JFZVDDCmDSkYJKjsdVUzufxhYoNFR2KUSkox4sbVfutQp6DsSK")
+#
 #post_thing = Post_holder(100,1000)
 #for i in range(10):
  #   post_thing.add_post(str(i),str(i),"x")
